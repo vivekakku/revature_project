@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <div class="border p-4">
+            <h4>Welcome To SignUp Page</h4>
+            <form method="post" action="banker" id="form">
+                <div class="form-group w-25">
+                    <label>Enter Your identification number</label>
+<input class="form-control " type="text" id="cust_id" placeholder="Enter id ">
+  <p style="color: red;" id="errorCustid"></p>
+<label>Enter Your Name</label>
+<input class="form-control" type="text" id="cust_name" placeholder="Enter Name ">
+  <p style="color: red;" id="errorCustName"></p>
+<label>Enter Your gender </label>
+<input class="form-control" type="text" id="cust_gender" placeholder="Enter gender ">
+  <p style="color: red;" id="errorCustGender"></p>
+<label>Enter Your EmailId</label>
+<input class="form-control" type="email" id="cust_emailId" placeholder="Enter EmailId ">
+  <p style="color: red;" id="errorEmailid"></p>
+
+<label>Enter Your phone number</label>
+<input class="form-control" type="text" id="cust_phno" placeholder="Enter phone number ">
+ <p style="color: red;" id="errorPhoneNumber"></p>
+<label>Create Password</label>
+<input class="form-control" type="password" id="cust_pwd" placeholder="Enter Password"><br>
+ <p style="color: red;" id="errorCustPassword"></p>
+<button id="register" class="btn btn-primary" type="submit" id="submit"
+value="signup">SignUp</button><br>
+                </div>
+            </form>
+        
+    
+        </div>
+
+    </div>
+    <div class="container">
+        <div id="results">
+
+        </div>
+    </div>
+
+
+   
+</body>
+
+<script src="registervalid.js">
+    
+</script>
+</html>
